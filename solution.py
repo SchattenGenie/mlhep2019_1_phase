@@ -19,7 +19,7 @@ def main():
 
     np.savez_compressed(output_dir + '/data_test_prediction.npz', 
                         ParticlePoint=np.random.randn(N_test, 2),
-                        ParticleMomentum=np.random.randn(N_tst, 2))
+                        ParticleMomentum=np.random.randn(N_test, 2))
 
     return 0
 
